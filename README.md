@@ -20,9 +20,14 @@ The overall architecture of the 4D fMRI CrossFormer is structured hierarchically
 The performance of the 4D fMRI CrossFormer was evaluated on three benchmark datasets: ADHD-200, Alzheimer's Disease Neuroimaging Initiative (ADNI), and Autism Brain Imaging Data Exchange (ABIDE). The results show that the 4DfCF consistently outperforms state-of-the-art baseline models.
 
 ### Training Accuracy and Loss
+
+The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss across multiple sites (NYU, OHSU, Peking 2, NeuroIMAGE), consistently outperforming baseline models. The results show rapid convergence, emphasizing the model’s effectiveness in handling complex ADHD-200 data.
+
 ![Training Accuracy and Loss](readme_img/results1_fig.png)
 
 **Figure 2:** Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (NYU, OHSU, Peking 2, NeuroIMAGE).
+
+On the ADNI and ABIDE datasets, the 4D fMRI CrossFormer achieved higher training accuracy and lower losses compared to other models, showcasing fast convergence and robust performance. These results highlight the model’s capability in effectively analyzing complex patterns related to Alzheimer’s and Autism Spectrum Disorders.
 
 ![Training Accuracy and Loss](readme_img/results2_fig.png)
 
@@ -34,9 +39,9 @@ The pre-training experiments reveal that models pre-trained on one dataset and f
 ## Datasets
 
 The datasets used in the study are:
-1. **ADHD-200**: A multi-site collection aimed at understanding ADHD through brain imaging and related behavioral outcomes.
-2. **ADNI**: A dataset aimed at understanding Alzheimer's Disease through brain imaging data.
-3. **ABIDE**: Focuses on Autism Spectrum Disorder by aggregating brain imaging data from multiple sites.
+1. **ADHD-200**: A multi-site collection aimed at understanding ADHD through brain imaging and related behavioral outcomes. <http://preprocessed-connectomes-project.org/adhd200/>
+2. **ADNI**: A dataset aimed at understanding Alzheimer's Disease through brain imaging data. <https://ida.loni.usc.edu/login.jsp?project=ADNI>
+3. **ABIDE**: Focuses on Autism Spectrum Disorder by aggregating brain imaging data from multiple sites. <http://preprocessed-connectomes-project.org/abide/>
 
 The detailed statistics for the fMRI datasets used in the study are as follows:
 
@@ -86,16 +91,28 @@ conda env create -f configs/crossformer/base_patch4_group7_224.yaml
 conda activate py39
 ```
 
-## Citation
+[//]: # ()
+[//]: # (## Citation)
 
-If you use this code or data in your research, please cite the corresponding paper.
-```
-@article{Zheng2020,
-  title={4DfCF: 4D fMRI CrossFormer Vision Transformer},
-  author={Chensheng Zheng and others},
-  journal={IEEE Transactions on Medical Imaging},
-  volume={XX},
-  number={XX},
-  year={2020},
-}
-```
+[//]: # ()
+[//]: # (If you use this code or data in your research, please cite the corresponding paper.)
+
+[//]: # (```)
+
+[//]: # (@article{Zheng2020,)
+
+[//]: # (  title={4DfCF: 4D fMRI CrossFormer Vision Transformer},)
+
+[//]: # (  author={Chensheng Zheng and others},)
+
+[//]: # (  journal={IEEE Transactions on Medical Imaging},)
+
+[//]: # (  volume={XX},)
+
+[//]: # (  number={XX},)
+
+[//]: # (  year={2020},)
+
+[//]: # (})
+
+[//]: # (```)
