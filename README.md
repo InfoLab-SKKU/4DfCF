@@ -1,3 +1,4 @@
+
 # 4D fMRI CrossFormer (4DfCF)
 
 This repository contains the implementation of the 4D fMRI CrossFormer (4DfCF), a novel vision transformer architecture designed to process high-dimensional 4D fMRI data. The 4DfCF integrates temporal and spatial dimensions to effectively learn and predict cognitive and clinical outcomes.
