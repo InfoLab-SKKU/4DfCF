@@ -9,7 +9,7 @@ from .parser import str2bool
 
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing import LabelEncoder
-#
+# 4DfCF
 
 
 class fMRIDataModule(pl.LightningDataModule):

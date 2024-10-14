@@ -39,7 +39,7 @@ The pre-training experiments reveal that models pre-trained on one dataset and f
 
 ## Datasets
 
-The datasets used in the study are:
+The datasets used in this study are:
 1. **ADHD-200**: A multi-site collection aimed at understanding ADHD through brain imaging and related behavioral outcomes. <http://preprocessed-connectomes-project.org/adhd200/>
 2. **ADNI**: A dataset aimed at understanding Alzheimer's Disease through brain imaging data. <https://ida.loni.usc.edu/login.jsp?project=ADNI>
 3. **ABIDE**: Focuses on Autism Spectrum Disorder by aggregating brain imaging data from multiple sites. <http://preprocessed-connectomes-project.org/abide/>
