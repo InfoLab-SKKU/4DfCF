@@ -12,7 +12,7 @@ Investigating the spatiotemporal dynamics of the human brain is a complex challe
 The overall architecture of the 4D fMRI CrossFormer is structured hierarchically into four stages, each consisting of a 4D Cross-Scale Embedding Layer (4D CEL) and several 4D CrossFormer Blocks. A specialized head is integrated for classification tasks.
 
 ### Model Structure
-![Model Structure](readme_img/architecture_fig.png)
+![Model Structure](readme_img/architecture_figure.png)
 
 **Figure 1:** (a) Overall architecture of 4D fMRI CrossFormer. (b) Detailed structure of the 4D CrossFormer Block. (c) 4D Short Distance Attention (4D-SDA) Block. (d) 4D Long Distance Attention (4D-LDA) Block.
 
@@ -24,13 +24,13 @@ The performance of the 4D fMRI CrossFormer was evaluated on three benchmark data
 
 The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss across multiple sites (NYU, OHSU, Peking 2, NeuroIMAGE), consistently outperforming baseline models. The results show rapid convergence, emphasizing the model’s effectiveness in handling complex ADHD-200 data.
 
-![Training Accuracy and Loss](readme_img/results1_fig.png)
+![Training Accuracy and Loss](readme_img/results1_figure.png)
 
 **Figure 2:** Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (NYU, OHSU, Peking 2, NeuroIMAGE).
 
 On the ADNI and ABIDE datasets, the 4D fMRI CrossFormer achieved higher training accuracy and lower losses compared to other models, showcasing fast convergence and robust performance. These results highlight the model’s capability in effectively analyzing complex patterns related to Alzheimer’s and Autism Spectrum Disorders.
 
-![Training Accuracy and Loss](readme_img/results2_fig.png)
+![Training Accuracy and Loss](readme_img/results2_figure.png)
 
 **Figure 3:** Comparison of Training Accuracy and Loss on ADNI and ABIDE Datasets.
 
