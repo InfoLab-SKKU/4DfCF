@@ -1,6 +1,6 @@
 import os
 import torch
-# 4DfCF_1
+# 4DfCF_
 
 
 def load_ckpt(exp_id, root_dir):

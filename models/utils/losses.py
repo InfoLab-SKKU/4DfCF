@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import numpy as np
 
 from torchvision import models
-# 4DfCF1
+# 4DfCF
 
 #################################################################################################
 # Contrastice loss code adapted from TCLR: Temporal Contrastive Learning for Video Representation

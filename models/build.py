@@ -1,4 +1,4 @@
-## 4DfCF_1
+## 4DfCF_
 
 def build_model(config, args):
     model_type = config.MODEL.TYPE

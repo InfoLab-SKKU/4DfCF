@@ -16,7 +16,7 @@ import glob
 
 from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler, KBinsDiscretizer
 # 4DfCF
-# 4DfCF_1
+# 4DfCF_
 
 
 class BaseDataset(Dataset):
