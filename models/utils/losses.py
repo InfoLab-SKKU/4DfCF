@@ -6,6 +6,7 @@ import numpy as np
 from torchvision import models
 # 4DfCF
 
+
 #################################################################################################
 # Contrastice loss code adapted from TCLR: Temporal Contrastive Learning for Video Representation
 # https://github.com/DAVEISHAN/TCLR

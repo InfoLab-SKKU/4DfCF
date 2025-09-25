@@ -5,6 +5,7 @@
 #SBATCH -c 32
 #SBATCH --ntasks-per-node=1
 
+
 source /usr/anaconda3/etc/profile.d/conda.sh
 conda activate py39
 pip install monai

@@ -17,3 +17,4 @@ def get_prev_args(ckpt_path, args):
             continue
         setattr(args, k, v)
     return args
+
