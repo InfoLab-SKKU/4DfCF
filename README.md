@@ -52,12 +52,58 @@ The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss
 
 On the ADNI and ABIDE datasets, the 4D fMRI CrossFormer achieved higher training accuracy and lower losses compared to other models, showcasing fast convergence and robust performance. These results highlight the model’s capability in effectively analyzing complex patterns related to Alzheimer’s and Autism Spectrum Disorders.
 
-![Training Accuracy and Loss](readme_img/results2_fig1.png)
+[//]: # (![Training Accuracy and Loss]&#40;readme_img/results2_fig1.png&#41;)
+
+<p align="center">
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ADNI_training_comparison_high_res.png" width="60%">
+    <figcaption>(a) Training Accuracy and Loss in ADNI </figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ABIDE_training_comparison_high_res.png" width="60%">
+    <figcaption>(b) Training Accuracy and Loss in ABIDE </figcaption>
+  </figure>
+
+</p>
 
 **Figure 3:** Comparison of Training Accuracy and Loss on ADNI and ABIDE Datasets.
 
 ### Effect of Pre-Training
 The pre-training experiments reveal that models pre-trained on one dataset and fine-tuned on another achieve faster convergence and higher accuracy.
+
+<p align="center">
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ADHD_to_ABIDE_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
+    <figcaption>(a) The effect of ADHD-200 pre-trained on the ABIDE classification tasks. </figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ADHD_to_ADNI_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
+    <figcaption>(b) The effect of ADHD-200 pre-trained on the ADNI classification tasks.</figcaption>
+  </figure>
+  <br>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ADNI_to_ADHD_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
+    <figcaption>(c) The effect of ADNI pre-trained on the ADHD-200 classification tasks.</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ADNI_to_ABIDE_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
+    <figcaption>(d) The effect of ADNI pre-trained on the ABIDE classification
+tasks. </figcaption>
+  </figure>
+  <br>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ABIDE_to_ADNI_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
+    <figcaption>(e) The effect of ABIDE pre-trained on the ADNI classification tasks. </figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/ABIDE_to_ADHD_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
+    <figcaption>(f) The effect of ABIDE pre-trained on the ADHD-200
+classification tasks. </figcaption>
+  </figure>
+</p>
+
+### Interpretation of the Results (XAI)
+
 
 ## Datasets
 
