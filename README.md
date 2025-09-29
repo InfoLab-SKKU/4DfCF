@@ -25,26 +25,25 @@ The performance of the 4D fMRI CrossFormer was evaluated on three benchmark data
 The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss across multiple sites (NYU, OHSU, Peking 2, NeuroIMAGE), consistently outperforming baseline models. The results show rapid convergence, emphasizing the model’s effectiveness in handling complex ADHD-200 data.
 
 [//]: # (![Training Accuracy and Loss]&#40;readme_img/results1_fig1.png&#41;)
-
-<div align="center">
+<p align="center">
   <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/NYU_training_comparison_high_res.png" width="45%">
+    <img src="readme_img/NYU_training_comparison_high_res.png" width="60%">
     <figcaption>(a) Training Accuracy and Loss in NYU</figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/OHSU_training_comparison_high_res.png" width="45%">
+    <img src="readme_img/OHSU_training_comparison_high_res.png" width="60%">
     <figcaption>(b) Training Accuracy and Loss in OHSU</figcaption>
   </figure>
   <br>
   <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/Peking2_training_comparison_high_res.png" width="45%">
+    <img src="readme_img/Peking2_training_comparison_high_res.png" width="60%">
     <figcaption>(c) Training Accuracy and Loss in Peking 2</figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/Neurol_training_comparison_high_res.png" width="45%">
+    <img src="readme_img/Neurol_training_comparison_high_res.png" width="60%">
     <figcaption>(d) Training Accuracy and Loss in NeuroIMAGE</figcaption>
   </figure>
-</div>
+</p>
 
 
 
