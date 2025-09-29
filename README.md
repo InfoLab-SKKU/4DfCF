@@ -26,24 +26,25 @@ The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss
 
 [//]: # (![Training Accuracy and Loss]&#40;readme_img/results1_fig1.png&#41;)
 <p align="center">
-  <figure style="display:inline-block; margin:10px;">
+  <div style="display:inline-block; margin:10px; text-align:center;">
     <img src="readme_img/NYU_training_comparison_high_res.png" width="45%">
-    <figcaption>(a) Training Accuracy and Loss in NYU</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
+    <p>(a) Training Accuracy and Loss in NYU</p>
+  </div>
+  <div style="display:inline-block; margin:10px; text-align:center;">
     <img src="readme_img/OHSU_training_comparison_high_res.png" width="45%">
-    <figcaption>(b) Training Accuracy and Loss in OHSU</figcaption>
-  </figure>
+    <p>(b) Training Accuracy and Loss in OHSU</p>
+  </div>
   <br>
-  <figure style="display:inline-block; margin:10px;">
+  <div style="display:inline-block; margin:10px; text-align:center;">
     <img src="readme_img/Peking2_training_comparison_high_res.png" width="45%">
-    <figcaption>(c) Training Accuracy and Loss in Peking 2</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
+    <p>(c) Training Accuracy and Loss in Peking 2</p>
+  </div>
+  <div style="display:inline-block; margin:10px; text-align:center;">
     <img src="readme_img/Neurol_training_comparison_high_res.png" width="45%">
-    <figcaption>(d) Training Accuracy and Loss in NeuroIMAGE</figcaption>
-  </figure>
+    <p>(d) Training Accuracy and Loss in NeuroIMAGE</p>
+  </div>
 </p>
+
 
 
 
