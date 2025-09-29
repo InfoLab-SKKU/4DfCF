@@ -33,16 +33,7 @@ The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss
   <figure><img src="readme_img/Peking2_training_comparison_high_res.png" alt=""><figcaption>(c) Training Accuracy and Loss in Peking 2</figcaption></figure>
   <figure><img src="readme_img/Neurol_training_comparison_high_res.png" alt=""><figcaption>(d) Training Accuracy and Loss in NeuroIMAGE</figcaption></figure>
 </div>
-<style>
-.grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  justify-items: center;
-}
-.grid img{width: 100%; height: auto; display: block;}
-.grid figure{margin: 0;}
-</style>
+
 
 
 
