@@ -25,84 +25,66 @@ The performance of the 4D fMRI CrossFormer was evaluated on three benchmark data
 The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss across multiple sites (NYU, OHSU, Peking 2, NeuroIMAGE), consistently outperforming baseline models. The results show rapid convergence, emphasizing the model’s effectiveness in handling complex ADHD-200 data.
 
 [//]: # (![Training Accuracy and Loss]&#40;readme_img/results1_fig1.png&#41;)
-<p align="center">
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/NYU_training_comparison_high_res.png" width="60%">
-    <figcaption>(a) Training Accuracy and Loss in NYU</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/OHSU_training_comparison_high_res.png" width="60%">
-    <figcaption>(b) Training Accuracy and Loss in OHSU</figcaption>
-  </figure>
-  <br>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/Peking2_training_comparison_high_res.png" width="60%">
-    <figcaption>(c) Training Accuracy and Loss in Peking 2</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/Neurol_training_comparison_high_res.png" width="60%">
-    <figcaption>(d) Training Accuracy and Loss in NeuroIMAGE</figcaption>
-  </figure>
-</p>
+![Figure 2 (a): Training Accuracy and Loss in NYU.](readme_img/NYU_training_comparison_high_res.png)  
+**Figure 2:** (a) Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (NYU).
+
+![Figure 2 (b): Training Accuracy and Loss in OHSU.](readme_img/OHSU_training_comparison_high_res.png)  
+**Figure 2:** (b) Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (OHSU).
+
+![Figure 2 (c): Training Accuracy and Loss in Peking 2.](readme_img/Peking2_training_comparison_high_res.png)  
+**Figure 2:** (c) Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (Peking 2).
+
+![Figure 2 (d): Training Accuracy and Loss in NeuroIMAGE.](readme_img/Neurol_training_comparison_high_res.png)  
+**Figure 2:** (d) Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (NeuroIMAGE).
 
 
 
 
-**Figure 2:** Comparison of Training Accuracy and Loss on ADHD-200 Datasets Across Multiple Sites (NYU, OHSU, Peking 2, NeuroIMAGE).
 
 On the ADNI and ABIDE datasets, the 4D fMRI CrossFormer achieved higher training accuracy and lower losses compared to other models, showcasing fast convergence and robust performance. These results highlight the model’s capability in effectively analyzing complex patterns related to Alzheimer’s and Autism Spectrum Disorders.
 
 [//]: # (![Training Accuracy and Loss]&#40;readme_img/results2_fig1.png&#41;)
 
-<p align="center">
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ADNI_training_comparison_high_res.png" width="60%">
-    <figcaption>(a) Training Accuracy and Loss in ADNI </figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ABIDE_training_comparison_high_res.png" width="60%">
-    <figcaption>(b) Training Accuracy and Loss in ABIDE </figcaption>
-  </figure>
+![Figure 7 (a): Training Accuracy and Loss in ADNI.](readme_img/ADNI_training_comparison_high_res.png)  
+**Figure 3:** (a) Comparison of Training Accuracy and Loss on ADNI.
 
-</p>
+![Figure 7 (b): Training Accuracy and Loss in ABIDE.](readme_img/ABIDE_training_comparison_high_res.png)  
+**Figure 3:** (b) Comparison of Training Accuracy and Loss on ABIDE.
 
-**Figure 3:** Comparison of Training Accuracy and Loss on ADNI and ABIDE Datasets.
 
 ### Effect of Pre-Training
 The pre-training experiments reveal that models pre-trained on one dataset and fine-tuned on another achieve faster convergence and higher accuracy.
 
-<p align="center">
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ADHD_to_ABIDE_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
-    <figcaption>(a) The effect of ADHD-200 pre-trained on the ABIDE classification tasks. </figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ADHD_to_ADNI_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
-    <figcaption>(b) The effect of ADHD-200 pre-trained on the ADNI classification tasks.</figcaption>
-  </figure>
-  <br>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ADNI_to_ADHD_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
-    <figcaption>(c) The effect of ADNI pre-trained on the ADHD-200 classification tasks.</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ADNI_to_ABIDE_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
-    <figcaption>(d) The effect of ADNI pre-trained on the ABIDE classification
-tasks. </figcaption>
-  </figure>
-  <br>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ABIDE_to_ADNI_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
-    <figcaption>(e) The effect of ABIDE pre-trained on the ADNI classification tasks. </figcaption>
-  </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="readme_img/ABIDE_to_ADHD_Training_Accuracy_Merged_Matplotlib_1.png" width="60%">
-    <figcaption>(f) The effect of ABIDE pre-trained on the ADHD-200
-classification tasks. </figcaption>
-  </figure>
-</p>
+
+
+![Figure 4 (a): The effect of ADHD-200 pre-trained on the ABIDE classification tasks.](readme_img/ADHD_to_ABIDE_Training_Accuracy_Merged_Matplotlib_1.png)  
+**Figure 4:** (a) The effect of ADHD-200 pre-trained on the ABIDE classification tasks.
+
+![Figure 4 (b): The effect of ADHD-200 pre-trained on the ADNI classification tasks.](readme_img/ADHD_to_ADNI_Training_Accuracy_Merged_Matplotlib_1.png)  
+**Figure 4:** (b) The effect of ADHD-200 pre-trained on the ADNI classification tasks.
+
+![Figure 4 (c): The effect of ADNI pre-trained on the ADHD-200 classification tasks.](readme_img/ADNI_to_ADHD_Training_Accuracy_Merged_Matplotlib_1.png)  
+**Figure 4:** (c) The effect of ADNI pre-trained on the ADHD-200 classification tasks.
+
+![Figure 4 (d): The effect of ADNI pre-trained on the ABIDE classification tasks.](readme_img/ADNI_to_ABIDE_Training_Accuracy_Merged_Matplotlib_1.png)  
+**Figure 4:** (d) The effect of ADNI pre-trained on the ABIDE classification tasks.
+
+![Figure 4 (e): The effect of ABIDE pre-trained on the ADNI classification tasks.](readme_img/ABIDE_to_ADNI_Training_Accuracy_Merged_Matplotlib_1.png)  
+**Figure 4:** (e) The effect of ABIDE pre-trained on the ADNI classification tasks.
+
+![Figure 4 (f): The effect of ABIDE pre-trained on the ADHD-200 classification tasks.](readme_img/ABIDE_to_ADHD_Training_Accuracy_Merged_Matplotlib_1.png)  
+**Figure 4:** (f) The effect of ABIDE pre-trained on the ADHD-200 classification tasks.
+
 
 ### Interpretation of the Results (XAI)
+![Figure 5 (a): Interpretation maps with Integrated Gradients (IG) for ADHD classification using 3D-CNNs, SwiFT and 4DfCF.](readme_img/merged_ADHD.jpg)
+**Figure 5:** (a) Interpretation maps with Integrated Gradients (IG) for ADHD classification using 3D-CNNs, SwiFT and 4DfCF.
+![Figure 5 (b): Interpretation maps with Integrated Gradients (IG) for ADNI classification using 3D-CNNs, SwiFT and 4DfCF.](readme_img/merged_ADNI.jpg)
+**Figure 5:** (b) Interpretation maps with Integrated Gradients (IG) for ADNI classification using 3D-CNNs, SwiFT and 4DfCF.
+![Figure 5 (c): Interpretation maps with Integrated Gradients (IG) for ABIDE classification using 3D-CNNs, SwiFT and 4DfCF.](readme_img/merged_ABIDE.jpg)
+**Figure 5:** (c) Interpretation maps with Integrated Gradients (IG) for ABIDE classification using 3D-CNNs, SwiFT and 4DfCF.
+
+These results confirm the regions implicated in previous studies investigating the differences in diseased brains. The highlighted regions in each dataset correspond to neural circuits most affected by the respective disorders, further validating the model’s capability to capture meaningful and biologically relevant patterns.
 
 
 ## Datasets
@@ -142,6 +124,9 @@ The repository is organized as follows:
 │   │   ├── init.py
 │   │   ├── build.py
 │   ├── crossformer.py
+├── pretrained_models/
+|   ├── constrastive_pretrained.ckpt
+|   ├── ADHD_classfication.ckpt
 ├── .gitignore
 ├── LICENSE
 ├── README.md
