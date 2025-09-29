@@ -26,6 +26,25 @@ The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss
 
 [//]: # (![Training Accuracy and Loss]&#40;readme_img/results1_fig1.png&#41;)
 
+<div align="center">
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/NYU_training_comparison_high_res.png" width="45%">
+    <figcaption>(a) Training Accuracy and Loss in NYU</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/OHSU_training_comparison_high_res.png" width="45%">
+    <figcaption>(b) Training Accuracy and Loss in OHSU</figcaption>
+  </figure>
+  <br>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/Peking2_training_comparison_high_res.png" width="45%">
+    <figcaption>(c) Training Accuracy and Loss in Peking 2</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="readme_img/Neurol_training_comparison_high_res.png" width="45%">
+    <figcaption>(d) Training Accuracy and Loss in NeuroIMAGE</figcaption>
+  </figure>
+</div>
 
 <div class="grid">
   <figure><img src="readme_img/NYU_training_comparison_high_res.png" alt=""><figcaption>(a) Training Accuracy and Loss in NYU</figcaption></figure>
@@ -33,7 +52,16 @@ The 4D fMRI CrossFormer demonstrated superior training accuracy and reduced loss
   <figure><img src="readme_img/Peking2_training_comparison_high_res.png" alt=""><figcaption>(c) Training Accuracy and Loss in Peking 2</figcaption></figure>
   <figure><img src="readme_img/Neurol_training_comparison_high_res.png" alt=""><figcaption>(d) Training Accuracy and Loss in NeuroIMAGE</figcaption></figure>
 </div>
-
+<style>
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+.grid img{width: 100%; height: auto; display: block;}
+.grid figure{margin: 0;}
+</style>
 
 
 
