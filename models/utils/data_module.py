@@ -12,7 +12,6 @@ from sklearn.preprocessing import LabelEncoder
 # 4DfCF_
 
 
-
 class fMRIDataModule(pl.LightningDataModule):
     def __init__(self, **kwargs):
         super().__init__()

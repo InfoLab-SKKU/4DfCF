@@ -6,7 +6,6 @@ from multiprocessing import Process, Queue
 # 4DfCF_
 
 
-
 def read_data(filename,load_root,save_root,subj_name,count,queue=None,scaling_method=None, fill_zeroback=False):
     print("processing: " + filename, flush=True)
     path = os.path.join(load_root, filename)

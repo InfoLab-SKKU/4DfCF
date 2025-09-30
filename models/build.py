@@ -1,6 +1,5 @@
 ## 4DfCF_
 
-
 def build_model(config, args):
     model_type = config.MODEL.TYPE
     if model_type == 'cross-scale':

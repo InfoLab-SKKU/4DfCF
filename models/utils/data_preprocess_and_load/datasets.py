@@ -19,7 +19,6 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler, KB
 # 4DfCF_
 
 
-
 class BaseDataset(Dataset):
     def __init__(self, **kwargs):
         super().__init__()

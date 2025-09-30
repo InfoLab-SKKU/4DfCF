@@ -2,7 +2,6 @@ import argparse
 # 4DfCF_
 
 
-
 def str2bool(v):
     if isinstance(v, bool):
         return v

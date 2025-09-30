@@ -4,7 +4,6 @@ from torch.nn import functional as F
 from math import exp
 # 4DfCF_
 
-
 class Metrics:
     @staticmethod
     def get_accuracy(y_hat, y):
