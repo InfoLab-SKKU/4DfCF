@@ -144,6 +144,7 @@ The repository is organized as follows:
 ├── README.md
 ```
 
+
 ## Installation
 
 To install the required dependencies, run:
