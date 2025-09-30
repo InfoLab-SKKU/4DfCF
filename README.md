@@ -120,10 +120,22 @@ The repository is organized as follows:
 │   │   ├── ADHD/
 ├── models/
 │   ├── utils/
-│   │   ├── 4d_crossformer.py
-│   │   ├── init.py
-│   │   ├── build.py
+|   │   ├── data_preprocess_and_load/
+|   │   |   ├── datasets.py
+|   │   |   ├── preprocessing.py
+|   │   |   ├── preprocessing.ipynb
+|   │   ├── data_module.py
+|   │   ├── losses.py
+|   │   ├── lr_scheduler.py
+│   │   ├── metrics.py
+│   │   ├── parser.py
+│   │   ├── seed_creation.py
+│   ├── 4d_crossformer.py
+│   ├── build.py
 │   ├── crossformer.py
+├── |pipeline/
+|   ├── fmri_preprocess/
+|   ├── t1_preprocessing/
 ├── pretrained_models/
 |   ├── constrastive_pretrained.ckpt
 |   ├── ADHD_classfication.ckpt
