@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_time_filter(files_in,files_out,opt)
 % Perform time high-pass and low-pass filtering using linear fitting of
 % a discrete cosine basis. 

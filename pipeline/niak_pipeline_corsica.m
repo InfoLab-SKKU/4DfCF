@@ -1,3 +1,4 @@
+
 function [pipeline,opt,files_out] = niak_pipeline_corsica(files_in,opt)
 % Pipeline to run CORSICA (correction of the physiological noise) on fMRI
 %

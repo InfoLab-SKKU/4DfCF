@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_resample_vol(files_in,files_out,opt)
 % Resample a 3D/4D volume with a transformation to a target space. 
 %

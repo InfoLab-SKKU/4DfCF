@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_fmri_preprocess_ind(files_in,opt)
 % Run a pipeline to preprocess individual fMRI datasets. 
 % The flowchart of the pipeline is flexible (steps can be skipped using 

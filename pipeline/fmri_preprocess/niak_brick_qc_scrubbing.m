@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt]=niak_brick_qc_scrubbing(files_in,files_out,opt)
 % Regress slow time drifst, global signals, motion parameters, etc
 %

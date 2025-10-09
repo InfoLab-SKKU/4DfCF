@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_stability_multi(files_in,opt)
 % Generic multi-level and multi-scale analysis of stable clusters
 %

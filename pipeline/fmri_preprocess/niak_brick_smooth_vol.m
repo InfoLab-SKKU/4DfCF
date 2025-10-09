@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_smooth_vol(files_in,files_out,opt)
 % Spatial smoothing of 3D or 3D+t data, using a Gaussian separable kernel
 %

@@ -12,7 +12,7 @@ Investigating the spatiotemporal dynamics of the human brain is a complex challe
 The overall architecture of the 4D fMRI CrossFormer is structured hierarchically into four stages, each consisting of a 4D Cross-Scale Embedding Layer (4D CEL) and several 4D CrossFormer Blocks. A specialized head is integrated for classification tasks.
 
 ### Model Structure
-![Model Structure](readme_img/architecture_fig1.png)
+![Model Structure](readme_img/architecture_fig_1.png)
 
 **Figure 1:** (a) Overall architecture of 4D fMRI CrossFormer. (b) Detailed structure of the 4D CrossFormer Block. (c) 4D Short Distance Attention (4D-SDA) Block. (d) 4D Long Distance Attention (4D-LDA) Block.
 

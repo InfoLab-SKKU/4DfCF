@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt]=niak_brick_build_confounds(files_in,files_out,opt)
 % Generate "noise" confounds for fMRI time series. 
 %

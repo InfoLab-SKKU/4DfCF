@@ -1,3 +1,4 @@
+
 function [in,out,opt] = niak_brick_resample_simple(in,out,opt)
 % Resample a 3D/4D volume into a target space using nearest neighbour interpolation. 
 % No transformation supported. 

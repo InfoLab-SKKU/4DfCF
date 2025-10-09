@@ -1,3 +1,4 @@
+
 function [pipeline,opt,files_out] = niak_pipeline_motion(files_in,opt)
 % Estimation of within-subject motion in fMRI data.
 %

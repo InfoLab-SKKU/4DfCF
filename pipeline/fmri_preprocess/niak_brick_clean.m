@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_clean(files_in,files_out,opt)
 %
 % _________________________________________________________________________

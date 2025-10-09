@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_motion_parameters(files_in,files_out,opt)
 % Estimate rigid-body motion parameters on fMRI volumes.
 %

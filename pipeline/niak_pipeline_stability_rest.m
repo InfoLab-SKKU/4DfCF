@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_stability_rest(files_in,opt)
 % Multi-level, multi-scale analysis of stable clusters in resting-state fMRI
 %

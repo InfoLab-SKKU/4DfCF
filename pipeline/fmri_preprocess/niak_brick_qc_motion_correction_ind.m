@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_qc_motion_correction_ind(files_in,files_out,opt)
 % Derive individual measures of quality control for fMRI motion correction.
 %

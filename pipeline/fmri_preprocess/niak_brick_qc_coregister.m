@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_qc_coregister(files_in,files_out,opt)
 % Derive measures of quality control for coregistration of brain volumes.
 %

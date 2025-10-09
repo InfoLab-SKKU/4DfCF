@@ -1,3 +1,4 @@
+
 function pipeline = niak_pipeline_diagnostic(pipeline_in,opt)
 %
 % _________________________________________________________________________

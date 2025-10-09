@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_mask_anat2func(files_in,files_out,opt)
 % Adapt a T1 brain mask to fit a typical BOLD brain mask. 
 %

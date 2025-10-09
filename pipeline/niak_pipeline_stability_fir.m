@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_stability_fir(files_in,opt)
 % Analysis of stable clusters using finite-impulse response (FIR) in fMRI
 %

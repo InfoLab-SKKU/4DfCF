@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_slice_timing(files_in,files_out,opt)
 % Correct for slice timing differences in 3D+t fMRI via temporal interpolation
 %

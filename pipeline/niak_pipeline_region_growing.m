@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_region_growing(files_in,opt)
 % Pipeline to perform a fixed-effect region growing on multiple datasets.
 %

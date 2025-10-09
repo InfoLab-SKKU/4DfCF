@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_math_vol(files_in,files_out,opt)
 % Apply an arbitrary matlab operation on multiple brain volumes.
 %

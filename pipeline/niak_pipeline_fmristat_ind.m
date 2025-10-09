@@ -1,3 +1,4 @@
+
 function pipeline = niak_pipeline_fmristat_ind(files_in,opt)
 % Individual-level linear model analysis of fMRI data.
 %

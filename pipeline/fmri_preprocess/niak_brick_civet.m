@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_civet(files_in,files_out,opt)
 % Run the CIVET pipeline on a T1 anatomical image. 
 %

@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt]=niak_brick_regress_confounds(files_in,files_out,opt)
 % Regress confounds from fMRI time series 
 %

@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_fmri_preprocess(files_in,opt)
 % Run a pipeline to preprocess fMRI and T1 MRI for a group of subjects.
 %

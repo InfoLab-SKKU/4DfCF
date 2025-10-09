@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_connectome(files_in,opt)
 % Generation of connectome in resting-state fMRI
 %

@@ -1,3 +1,4 @@
+
 function [in,out,opt] = niak_brick_init_qc_report(in,out,opt)
 % Initialize the quality control report for fMRI preprocessed data
 %

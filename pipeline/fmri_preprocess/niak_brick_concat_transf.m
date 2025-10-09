@@ -1,3 +1,4 @@
+
 function [files_in,files_out,opt] = niak_brick_concat_transf(files_in,files_out,opt)
 % Concatenate multiple transformations in xfm format.
 % [FILES_IN,FILES_OUT,OPT] = NIAK_BRICK_CONCAT_TRANSF(FILES_IN,FILES_OUT,OPT)

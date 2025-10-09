@@ -1,3 +1,4 @@
+
 function [pipeline,opt] = niak_pipeline_t1_preprocess(files_in,opt)
 % Run a pipeline to preprocess a collection of T1 scans. 
 % The preprocessing includes linear and non-linear coregistration in the 
